@@ -1,0 +1,28 @@
+docker vresion
+docker info
+docker login
+usename:
+pwd:
+
+
+docker build -t springio/gs-spring-boot-docker .
+-t imagename-projectname in small letters
+
+docker build -t springio/gs-spring-boot-docker .
+docker run -p 8080:8080 springio/gs-spring-boot-docker
+
+To use the access token from your Docker CLI client:
+
+1. Run docker login -u 94937671197
+
+2. At the password prompt, enter the personal access token.
+
+docker tag  6eadd95d7d14 94937671197/springio:latest
+
+docker push 94937671197/springio:latest
+
+
+94937671191
+
+7D4GNJRQXZSJK-recovery code
+1fc71ddb-d5c8-48d0-a860-338b22a741e7
